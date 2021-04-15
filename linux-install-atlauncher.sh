@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Script for installing ATLauncher on Linux, Version 0.1
 # Copyright (C) 2020 DavidoTek
@@ -51,7 +51,7 @@ ATLAUNCHER_VERSION=`get_version`
 
 
 cat << EOF > $ATLAUNCHER_HOME/linux-update-atlauncher.sh
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Script for updating ATLauncher on Linux
 
@@ -94,7 +94,7 @@ chmod +x $ATLAUNCHER_HOME/linux-update-atlauncher.sh
 
 
 cat << EOF > $ATLAUNCHER_HOME/linux-uninstall-atlauncher.sh
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Script for uninstalling ATLauncher on Linux
 
