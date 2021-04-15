@@ -7,11 +7,8 @@ Note: If you have multiple Java versions installed, you might need to change the
 
 ## Usage
 Open a Terminal and type following commands:  
-`wget https://raw.githubusercontent.com/DavidoTek/linux-install-atlauncher/master/linux-install-atlauncher.sh`
 
-`chmod +x linux-install-atlauncher.sh`
-
-`./linux-install-atlauncher.sh`
+`wget -O https://raw.githubusercontent.com/DavidoTek/linux-install-atlauncher/master/linux-install-atlauncher.sh | sudo bash`
 
 ATLauncher should be installed automatically in `~/Applications/ATLauncher/`.
 
